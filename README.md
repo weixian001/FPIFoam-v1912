@@ -1,11 +1,10 @@
 # FPIFoam and FPIBuoyantFoam v1912
-==================
+===================================
 
 ## Description
 
-This code realizes a steady laminar flamelet approach for turbulent non-premixed combustion.
-Both solvers are based on ''rhoReactingFoam'' and ''rhoReactingBuoyantFoam'' respectively, i.e. it is pressure-based (PISO), compressible and runs with both LES and RAS turbulence.
- 
+This code realizes a steady laminar flamelet approach for turbulent premixed combustion.
+Both solvers are based on ''rhoReactingFoam'' and ''rhoReactingBuoyantFoam'' respectively, i.e. it is pressure-based (PISO), compressible and runs with both LES and RAS turbulence. 
 The theory is mainly taken from the work of N. Peters and is based on the view of a turbulent flame as an ensemble of laminar flamelets.
 The calculation of these flamelets is a one-dimensional problem and can be done in a pre-processing step.
 Integration using a presumed beta-Probability Density Function (PDF) accounts for the interaction between turbulent fluctuations and chemistry.
