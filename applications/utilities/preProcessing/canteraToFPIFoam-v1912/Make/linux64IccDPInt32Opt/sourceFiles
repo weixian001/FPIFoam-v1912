@@ -1,0 +1,7 @@
+SOURCE = \
+Gamma.C \
+canteraScanner.L \
+canteraReader.C \
+canteraToFPIFoamv1912.C \
+
+# sources

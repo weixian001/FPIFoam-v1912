@@ -1,0 +1,6 @@
+Gamma.C
+canteraScanner.L
+canteraReader.C
+canteraToFPIFoamv1912.C
+
+EXE = $(FOAM_USER_APPBIN)/canteraToFPIFoamv1912
